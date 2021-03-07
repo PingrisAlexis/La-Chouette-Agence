@@ -364,11 +364,6 @@ a:hover {
     color: #FFFFFF !important;
 }
 
-
-.nav > li a:focus {
-    background: transparent;
-}
-
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
@@ -773,6 +768,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .portfolio-row {
@@ -893,6 +890,7 @@ h4 {
 }
 
 @media (max-width: 991px) {
+    
     .container {
         width: 100%;
     }
@@ -945,7 +943,11 @@ h4 {
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
     }
-    .navbar.row {
+    
+    .row{
+        margin: auto;
+    }
+    .navbar .row {
         margin-left: 0;
         margin-right: 0;
     }
@@ -959,9 +961,11 @@ h4 {
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         background: rgba(0, 0, 0, .05);
-        text-align: left;
+        /* text-align: left; */
         padding-left: 15px;
         width: 100%;
+        margin: 0;
+
     }
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
