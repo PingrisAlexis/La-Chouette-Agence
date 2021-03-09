@@ -17,15 +17,14 @@ h2{
     z-index: 4;
 }
 
+p,
+strong,
 cite,
 address,
 label {
     color: #333333;
     font-size: 16px;
-}
-
-p {
-    font-size: 16px;
+    font-weight: 500;
 }
 
 .bloc-top-form {
@@ -255,7 +254,7 @@ a:hover {
 
 .d-bloc .panel .a-btn,
 .l-bloc .a-btn,
-/* .l-bloc .navbar a, */
+.l-bloc .navbar a,
 .l-bloc .navbar-brand,
 .l-bloc a .icon-sm,
 .l-bloc a .icon-md,
@@ -285,7 +284,6 @@ a:hover {
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
-    /* color: rgba(0, 0, 0, 1) !important; */
     background: #333333 !important;
 }
 
@@ -376,8 +374,7 @@ a:hover {
 }
 
 .navbar-toggle {
-    margin-top: 20px;
-    margin: 10px 10px 0 0;
+    margin: 10px 20px 0 0;
     border: 0px;
 }
 
@@ -910,10 +907,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        /* padding-left: constant(safe-area-inset-left); */
-        /* padding-right: constant(safe-area-inset-right); */
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -922,8 +915,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        /* padding-left: constant(safe-area-inset-left); */
-        /* padding-right: constant(safe-area-inset-right); */
     }
 }
 
@@ -976,9 +967,6 @@ h4 {
     .nav > li {
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
-        /* background: rgba(0, 0, 0, .05); */
-        /* text-align: left; */
-        /* padding-left: 15px; */
         width: 100%;
         margin: 0;
 
