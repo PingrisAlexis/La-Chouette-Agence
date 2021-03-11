@@ -16,7 +16,7 @@
 
 ### Elements provided:
 
-- HTML, CSS, JavaScript, PHP and images folders.
+- HTML, CSS, Bootstrap, JavaScript, PHP and images folders.
 
 ### Skills assessed:
 
