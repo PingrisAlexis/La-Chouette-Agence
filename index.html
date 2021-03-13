@@ -33,7 +33,7 @@
 						<div class="navbar-brand">
 							<img src="img/la-chouette-agence-a-lyon.png" alt="Logo de La Chouette Agence" title="La Chouette Agence - Entreprise de Webdesign à Lyon" height="40">
 						</div>
-							<button id="nav-toggle" type="button" class="navbar-toggle ui-navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+							<button id="nav-toggle" type="button" aria-label="Barre de navigation" class="navbar-toggle ui-navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 								<span class="sr-only">Toggle navigation</span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
@@ -64,7 +64,7 @@
 					<div class="col-sm-12 text-center">
 						<img src="img/logo-la-chouette-agence.png" class="center-block image-resize-mode" width="100" alt="La Chouette Agence - Entreprise de Webdesign à Lyon">
 						<h1 class=" hero-bloc-text tc-white">La Chouette Agence<br>Entreprise de Webdesign à Lyon</h1>
-						<a href="#contact" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contactez - nous!</a>
+						<a href="#contact" id="cta-hero" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine">Contactez - nous!</a>
 					</div>
 				</div>
 			</div>
@@ -72,7 +72,7 @@
 		<!-- bloc-1-presentation END -->
 		<!-- bloc-2-services -->
 		<main class="bloc bgc-white l-bloc" id="nos-services">
-			<div class="container">
+			<div class="container" >
 				<div>
 					<section class="col-sm-12 text-center bloc-sm">
 						<h2>La chouette agence est une agence de webdesign qui aide<br/>
@@ -102,9 +102,9 @@
 						</p>
 					</section>
 				</div>
-				<figure class="voffset-lg voffset">
+				<figure class="voffset-lg voffset" >
 					<blockquote class="voffset-lg col-xs-12 col-md-8 col-md-offset-2 text-center bloc-sm">
-						<h4  class="bloc-sm">
+						<h4  class="bloc-sm" >
 							"La chouette agence est une excellente agence web ! Les
 							 web designers ont réussi à capturer l'essence de notre
 							entreprise et à l'intégrer à notre site. Cela nous a aidé à
@@ -136,7 +136,7 @@
 		</section>
 		<!-- bloc-3-what-i-do END -->
 		<!-- bloc-4-portfolio -->
-		<section class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc">
+		<section class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
 			<div class="container">
 				<div class="bloc-md">
 					<h3 class="text-img col-sm-12 text-center " id="nos-realisations">Nous collaborons avec nombre de clients,<br/> 
@@ -145,18 +145,24 @@
 				</div>
 				<div class="tight-width-whitespace portfolio-row">
 					<figure class="col-sm-6">
-						<img src="img/site-web-magazine.jpg" class="img-responsive portfolio-thumb" alt="Photographie d'un site web de magazine">
+						<a href="#" data-lightbox="img/site-web-magazine.jpg" data-gallery-id="gallery-1"
+              data-caption="Refonte d'un site web pour un journal local." data-frame="snapshot-lb">
+							<img src="img/site-web-magazine.jpg" class="img-responsive portfolio-thumb" alt="Photographie d'un site web de magazine">
+						</a>
 						<h4 class="mg-md text-center">
-							Refonte d'un site web pour un journal local
+							Refonte d'un site web pour un journal local.
 						</h4>
 						<p class="text-center">
 							Nous avons créé une nouvelle identité visuelle pour un journal lyonnais.
 						</p>
 					</figure>
 					<figure class="col-sm-6">
-						<img src="img/site-web-voyageur.jpg" class="img-responsive portfolio-thumb" alt="Photographie d'un site web de voyageur">
+						<a href="#" data-lightbox="img/site-web-photographe.jpg" data-gallery-id="gallery-1"
+							data-caption="Création d'un site web pour photographes." data-frame="snapshot-lb">	
+							<img src="img/site-web-photographe.jpg" class="img-responsive portfolio-thumb" alt="Photographie d'un site web de photographe">
+						</a>
 						<h4 class="mg-md text-center">
-							Création d'un site web pour photographes
+							Création d'un site web pour photographes.
 						</h4>
 						<p class="text-center">
 							Nous avons conçu la plateforme idéale pour laisser place aux clichés des photographes.
@@ -165,18 +171,24 @@
 				</div>
 				<div class="tight-width-whitespace portfolio-row">
 					<figure class="col-sm-6">
-						<img src="img/site-web-photographe.jpg" class="img-responsive portfolio-thumb" alt="Photographie d'un site web de photographe">
+						<a href="#" data-lightbox="img/site-web-voyageur.jpg" data-gallery-id="gallery-1"
+              data-caption="Création d'un site web pour un voyageur." data-frame="snapshot-lb">
+							<img src="img/site-web-voyageur.jpg" class="img-responsive portfolio-thumb" alt="Photographie d'un site web de voyageur">
+					</a>
 						<h4 class="mg-md text-center">
-							Création d'un site internet pour un voyageur
+							Création d'un site web pour un voyageur.
 						</h4>
 						<p class="text-center">
 							Nous avons élaboré un site internet et des illustrations pour sublimer les vidéos et les articles de ce voyageur.
 						</p>
 					</figure>
 					<figure class="col-sm-6">
-						<img src="img/site-web-agence-mariage.jpg" class="img-responsive portfolio-thumb" alt="Photographie d'un site web d'agence de mariage">
+						<a href="#" data-lightbox="img/site-web-agence-mariage.jpg" data-gallery-id="gallery-1"
+							data-caption="Conception d'un site pour une agence de mariage." data-frame="snapshot-lb">	
+							<img src="img/site-web-agence-mariage.jpg" class="img-responsive portfolio-thumb" alt="Photographie d'un site web d'agence de mariage">
+						</a>
 						<h4 class="mg-md text-center">
-							Conception d'un site pour une agence de mariage
+							Conception d'un site pour une agence de mariage.
 						</h4>
 						<p class="text-center">
 							Nous avons travaillé avec cette agence pour créer un site internet permettant la présentation détaillée de leurs prestations.
@@ -187,7 +199,7 @@
 		</section>
 		<!-- bloc-4-portfolio END -->
 		<!-- bloc-5-cta -->
-		<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper">
+		<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
 			<div class="container bloc-lg text-center white">
 				<h2 class="tc-white">
 					Prêt pour redonner vie à votre projet ?<br>
@@ -207,8 +219,8 @@
 					</div>
 				</div>
 			</div>
-			<!-- bloc-6 END -->
-			<!-- bloc-7 -->
+			<!-- bloc-5 END -->
+			<!-- bloc-6 -->
 			<div class="bloc bgc-white med-width-whitespace">
 				<div class="container-fluid bloc-lg">
 					<div class="col-lg-12">
@@ -237,7 +249,7 @@
 								</label>
 								<textarea id="message" class="form-control" rows="4" cols="50" placeholder="Présentez-nous votre demande! Ajoutez autant de détails que nécessaire!" required></textarea>
 							</div>
-							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" aria-label="Envoyer le formulaire">
 								Envoyer
 							</button>
 						</form>
@@ -245,9 +257,9 @@
 				</div>
 			</div>
 		</section>
-		<!-- bloc-7 END-->
-		<!-- Footer - bloc-8 -->
-		<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+		<!-- bloc-6 END-->
+		<!-- Footer - bloc-7 -->
+		<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-7">
 			<div class="container bloc-sm">
 				<div>
 					<div class="col-sm-12">
@@ -285,7 +297,7 @@
 				</div>
 			</div>
 		</footer>
-		<!-- Footer - bloc-8 END -->
+		<!-- Footer - bloc-7 END -->
 		<!-- Script -->
 		<script src="./js/jquery-2.1.0.min.js"></script>
 		<script src="./js/jquery.touchSwipe.min.js"></script>
