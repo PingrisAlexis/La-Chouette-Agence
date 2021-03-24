@@ -17,6 +17,8 @@ h2{
     z-index: 4;
 }
 
+
+
 p,
 strong,
 cite,
@@ -804,10 +806,12 @@ h4 {
     text-decoration: underline!important;
 }
 
+.bold {
+    font-weight: 900;
+}
 .bgc-white {
     background-color: #FFFFFF;
 }
-
 .bgc-dark-slate-blue {
     background-color: #364577;
 }
