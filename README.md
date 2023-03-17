@@ -1,6 +1,6 @@
-# La Chouette Agence
+# Project 3/6 OpenClassrooms Web Developer Path
 
-## Project 4 OpenClassrooms Web Developer Course - Optimize an existing website.
+## Optimize an existing website.
 
 ### Specifications:
 
