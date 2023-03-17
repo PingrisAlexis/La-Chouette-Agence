@@ -1,4 +1,4 @@
-# Project 3/6 OpenClassrooms Web Developer Path
+# Project 3/6 - Web Developer Path
 
 ## Optimize an existing website.
 
