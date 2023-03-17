@@ -1,6 +1,6 @@
-# PingrisAlexis_04_01032021
+# La Chouette Agence
 
-## Project 4 OpenClassrooms - Optimize an existing website.
+## Project 4 OpenClassrooms Web Developer Course - Optimize an existing website.
 
 ### Specifications:
 
